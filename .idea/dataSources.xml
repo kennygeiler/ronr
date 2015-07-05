@@ -5,7 +5,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>localhost</jdbc-url>
+      <jdbc-url>jdbc:postgresql:demo_test_development</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails clubgoinup-master: test" uuid="fc2d27e7-0e3b-41a0-844e-5f3f3dec4f2b">
