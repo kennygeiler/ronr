@@ -1,0 +1,84 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+*= require_self
+*= require_tree .
+*= require jquery.mobile
+*/
+
+
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.convolist li {
+  list-style-type: none;
+  border-top: 1px solid black;
+}
+
+#goingup {
+  font-size: 120px;
+  text-transform: capitalize;
+}
+
+.intro {
+   font-size: 120px;
+}
+.header-title{
+  margin:0 44%;
+}
+#new_form {
+  font-size: 4px;
+  text-transform: capitalize;
+}
+
+.ui-input-text {
+  border-style: none;
+  border-bottom: 1px solid yellow;
+}
+
+#bottles {
+  display: inline-flex;
+}
+#sitcky_menu{
+  margin-left: 3px;
+  margin-top: 5px;
+  border: 0 none;
+  outline: 0;
+}
+
+#sitcky_menu span{
+  background: #535353;
+  display: block;
+  width: 25px;
+  height: 2px;
+  right: 0;
+    margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin-top: 5px;
+}
+
+#bottombanner{
+  margin: 0px auto;
+  width: 30px;
+  height: 63px;
+  background-color: #5382bd;
+  margin-top: 15px;
+}

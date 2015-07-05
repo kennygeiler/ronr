@@ -1,0 +1,26 @@
+<p>
+  <%= render 'conversations/participants', conversation: @conversation %>
+</p>
+
+<div class="panel panel-default">
+
+  <div class="panel-body">
+    <div class="messages">
+      <% @conversation.receipts_for(current_user).order(created_at: :asc).each do |receipt| %>
+        <div class="media">
+          <% message = receipt.message %> <br>
+           <%= message.body %> - <%= message.sender.name %> <br>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<%= form_tag reply_conversation_path(@conversation), method: :post do %>
+ <div data-role="footer"  data-position="fixed">
+  <div class="form-group">
+    <%= text_area_tag 'body', nil, cols: 3, class: 'form-control', required: true %>
+  </div>
+  <%= submit_tag "Send", class: 'btn btn-primary' %>
+</div>
+<% end %>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails clubgoinup-master: development" uuid="94ae668e-75c4-434a-a788-d9b32c608d7d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails clubgoinup-master: test" uuid="fc2d27e7-0e3b-41a0-844e-5f3f3dec4f2b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="989257451">
+    <data-source source="LOCAL" name="Rails clubgoinup-master: development" uuid="94ae668e-75c4-434a-a788-d9b32c608d7d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>localhost</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails clubgoinup-master: test" uuid="fc2d27e7-0e3b-41a0-844e-5f3f3dec4f2b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:demo_test_test</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
