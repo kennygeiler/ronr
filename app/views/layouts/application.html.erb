@@ -10,7 +10,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-
 </head>
  <system.webServer>
    <httpProtocol>
@@ -20,15 +19,15 @@
   </httpProtocol>
  </system.webServer>
 <body>
-  <div data-role="page" data-theme='a'>
-      <div data-role="panel" data-display="push" id="sidebar" data-theme="a">
+<div data-role="page" data-theme='a'>
+   <div data-role="panel" data-display="push" id="sidebar" data-theme="a">
         <ul data-role="listview">
           <li data-icon='false'><a data-ajax="true" href="/quotes/new">New Request</a></li>
           <li data-icon='false'><a data-ajax="true" href="/conversations">Messages</a></li>
           <li data-icon='false'><a data-ajax="true" href="/quotes">Promoters Only</a></li>
           <li data-icon='false'><a data-ajax="true" href="/signout">Signout</a></li>
         </ul>
-      </div>
+   </div>
    <div data-role="header" data-tap-toggle="false" data-theme='a'>
                 <a href='#sidebar' data-role="none" id="sitcky_menu">         
                   <span class="top"></span>
@@ -60,3 +59,4 @@
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
+
